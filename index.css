@@ -92,7 +92,7 @@
 }
 .nav-item:hover {
   text-decoration: none;
-  color : #000;
+  color : red;
 }
 
 .ImageBorder
@@ -108,4 +108,10 @@
 .back {
 
   background-color:#000 !important;
+}
+.main-item {
+
+  position: relative;
+  bottom: 0px;
+  height: 60%;
 }

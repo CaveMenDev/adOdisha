@@ -1,3 +1,6 @@
+.body {
+  background: #f5f5f5
+}
 .btn-nav {
   color: #007bff;
   background-color: transparent;
@@ -42,7 +45,10 @@
 /*search bar starts*/
 .search {
   width: 100%;
-  position: relative
+  position: relative;img {
+   padding:1px;
+   border:1px solid #021a40;
+}
 }
 
 .searchTerm {
@@ -50,19 +56,14 @@
   width: 100%;
   border: 0.15rem solid #444;
   padding: 5px;
-  height: 4%;
-  border-radius: 5px;
+  height: 10%;
+  border-radius: 0.25rem;
   outline: none;
   color: #444;
 }
-
-.searchTerm:focus{
-  color: #444;
-}
-
 .searchButton {
   position: absolute;  
-  right: -50px;
+  right: 0;
   width: 40px;
   height: 36px;
   border: 1px solid #444;
@@ -79,7 +80,7 @@
   width: 50%;
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 52%;
   transform: translate(-50%, -50%);
   border-color: white;
 }
@@ -93,4 +94,16 @@
   text-decoration: none;
   color : #000;
 }
-
+.img {
+   padding:1px;
+   border:1px solid #021a40;
+}
+.ImageBorder
+{
+    border:0.15rem solid #000000;
+}
+.ImageBorder:hover
+{
+    border:1px solid #fff;
+    opacity: 0.7;
+}

@@ -94,16 +94,17 @@
   text-decoration: none;
   color : #000;
 }
-.img {
-   padding:1px;
-   border:1px solid #021a40;
-}
+
 .ImageBorder
 {
-    border:0.15rem solid #000000;
+    border:0.15rem solid #fff;
 }
 .ImageBorder:hover
 {
-    border:1px solid #fff;
+    border: 0.25rem solid #000;
     opacity: 0.7;
+}
+.body1 {
+
+  background-color:#000;
 }
